@@ -4,10 +4,12 @@
     <h1>Hello</h1>
     <img src="https://t4.ftcdn.net/jpg/01/25/86/35/360_F_125863509_jaISqQt7MOfhOT3UxRTHZoEbMmmFYIr8.jpg" alt="Sun" />
   </div>
+  <Enterance/>
 </template>
 
 <script setup>
 import NavBar from './NavBar.vue';
+import Enterance from './Enterance.vue'
 // Here we can import external data or components if needed.
 // The setup script tag is where we can use the Composition API features.
 </script>
