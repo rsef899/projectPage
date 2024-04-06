@@ -1,19 +1,29 @@
 <template>
   <v-app>
     <v-main>
-      <HelloWorld/>
+        <NavBar class="z-10"/>
+        <HelloWorld/>
     </v-main>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue';
+import NavBar from './components/NavBar.vue';
+import {
+  VContainer,
+  VRow,
+  VCol,
+  VSpacer
+
+} from 'vuetify/lib/components/index.mjs';
 
 export default {
   name: 'App',
 
   components: {
     HelloWorld,
+    NavBar
   },
 
   data: () => ({
