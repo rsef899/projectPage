@@ -3,7 +3,7 @@
         <div class="flex gap-x-10">
             <div class="lg:flex-1 min-w-0">
             <h1 class="font-googlePoppins font-bold leading-loose text-zinc-800 lg:text-5xl"><br>Computer Engineering</h1>
-            <h1 class="font-googlePoppins font-bold leading-loose text-zinc-800 lg:text-5xl py-4">Student</h1>
+            <h1 class="font-googlePoppins font-bold leading-loose text-zinc-800 lg:text-5xl py-4">Student 🦾</h1>
             <p class="font-googleMulish leading-loose text-gray-600 text-lg">
                 Hey! My name is Robert Sefaj I am currently studying a bachelor of honours in<br> Computer Systems Enginnering at the University of Auckland.
             </p>
