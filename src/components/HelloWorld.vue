@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center h-full">
+  <div class="flex lg:justify-center items-center h-full pt-40">
     <Enterance />
   </div>
 </template>

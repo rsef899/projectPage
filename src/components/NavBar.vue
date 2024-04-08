@@ -3,6 +3,7 @@
       <v-layout>
         <v-app-bar
           color="white"
+          class="h-20 flex justify-center"
         >
         <v-btn
             variant="plain"

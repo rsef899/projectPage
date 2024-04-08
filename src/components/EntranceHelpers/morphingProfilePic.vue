@@ -32,8 +32,8 @@
     background-repeat: no-repeat;
     background-size: cover;
     border: 3px solid #289c28;
-    height: 20rem;
-    width: 250px;
+    height: 25rem;
+    width: 350px;
     position: relative;
     transition: all 1s ease-out;
     

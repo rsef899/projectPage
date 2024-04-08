@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        poppins: ['Poppins', 'sans-serif'],
+        'googlePoppins': ["Poppins", 'sans-serif'],
+        'googleMulish': ["Mulish", 'sans-serif'],
       },
     },
   },
