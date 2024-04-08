@@ -1,8 +1,11 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main class="flex flex-col">
         <NavBar class="z-10"/>
-        <HelloWorld/>
+        <HelloWorld class="h-screen bg-slate-50"/>
+        <div style="height: 1000px; background-color: aqua;">
+
+        </div>
     </v-main>
   </v-app>
 </template>

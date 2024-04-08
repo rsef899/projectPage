@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-center items-center h-full py-20">
+  <div class="flex justify-center items-center h-full">
     <Enterance />
   </div>
 </template>
