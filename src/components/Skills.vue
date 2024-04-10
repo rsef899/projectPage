@@ -18,22 +18,57 @@
             <a target="_blank" rel="noopener noreferrer" class="px-2">
                 <img src="https://skillicons.dev/icons?i=python" alt="Python" title="Python">
             </a>
-            <!-- Additional Programming Language Icons -->
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=java" alt="Java" title="Java">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=c" alt="C" title="C">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=javascript" alt="JavaScript" title="JavaScript">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=matlab" alt="MatLab" title="MatLab">
+            </a>
+
           </div>
-          
+   
           <!-- Front End Icons -->
           <div class="flex col-start-2 row-start-2">
             <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=html" alt="HTML" title="HTML">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=css" alt="CSS" title="CSS">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
                 <img src="https://skillicons.dev/icons?i=react" alt="React" title="React">
             </a>
-            <!-- Additional Front End Icons -->
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=redux" alt="Redux" title="Redux">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=vue" alt="Vue" title="Vue">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=pinia" alt="Pinia" title="Pinia">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=tailwind" alt="Tailwind" title="Tailwind">
+            </a>
           </div>
 
+          <!-- Back End Icons -->
           <div class="flex col-start-2 row-start-3">
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/freeRTOS.png" alt="React" title="React">
+                <img src="https://skillicons.dev/icons?i=flask" alt="Flask" title="Flask">
             </a>
-            <!-- Additional Front End Icons -->
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="../assets/icons/jaxrs.png" alt="Jax-Rs" title="Jax-Rs">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=sqlite" alt="Sqlite" title="Sqlite">
+            </a>
           </div>
       
       </div>
