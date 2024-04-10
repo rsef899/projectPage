@@ -31,7 +31,7 @@
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    border: 3px solid #289c28;
+    border: 3px solid #15803d;
     height: 25rem;
     width: 350px;
     position: relative;

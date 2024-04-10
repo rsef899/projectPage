@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col">
+    <div class="flex flex-col ">
         <div class="flex gap-x-10">
             <div class="lg:flex-1 min-w-0">
             <h1 class="font-googlePoppins font-bold leading-loose text-zinc-800 lg:text-5xl"><br>Computer Engineering</h1>
