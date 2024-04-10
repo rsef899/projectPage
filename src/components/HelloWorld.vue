@@ -4,7 +4,7 @@
       <Enterance />
     </div>
 
-    <div class="flex lg:justify-center items-center">
+    <div class="flex lg:justify-center items-center py-20">
       <Skills/>
     </div>
 
