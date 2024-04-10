@@ -1,6 +1,9 @@
 <template>
-  <div class="flex lg:justify-center items-center h-full ">
-    <Enterance />
+  <div class="flex flex-col">
+    <div class="flex lg:justify-center items-center h-screen bg-slate-50">
+      <Enterance />
+    </div>
+    <div style="height: 1000px; background-color: aqua;"></div>
   </div>
 </template>
 
