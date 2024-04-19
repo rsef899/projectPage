@@ -3,7 +3,7 @@
       <h2 class="text-green-700 font-googlePoppins font-bold text-lg lg:pt-5">My Skills And Experiences</h2>
   
       <!-- Grid container -->
-      <div class="grid grid-cols-2 grid-rows-6 gap-4 py-5">
+      <div class="grid grid-cols-2 grid-rows-6 py-5 lg: gap-y-4 gap-x-32 ">
         <!-- First column for labels -->
         
           <p class="font-googleMulish leading-loose text-lg col-start-1 row-start-1">Programming Languages:</p>
