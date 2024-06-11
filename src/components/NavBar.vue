@@ -12,15 +12,12 @@
         <v-btn
             variant="plain"
             :ripple="false"
-        >About</v-btn>
+        >Skills</v-btn>
         <v-btn
             variant="plain"
             :ripple="false"
         >Projects</v-btn>
-        <v-btn
-            variant="plain"
-            :ripple="false"
-        >Connect</v-btn>
+    
         <template v-slot:prepend>
         <v-btn
             variant="plain"
