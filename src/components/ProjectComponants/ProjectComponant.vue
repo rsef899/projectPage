@@ -1,8 +1,8 @@
 <template>
     <v-card> 
             <v-card-item> 
-                <v-card-title>Project 1</v-card-title> 
-                <v-card-subtitle>Embedded Sytems</v-card-subtitle>
+                <v-card-title>{{projectJsonData.Projects.Title}}</v-card-title> 
+                <v-card-subtitle>{{projectJsonData.Projects.Type}}</v-card-subtitle>
              <div class="flex col-start-2 row-start-6"> 
                 <a target="_blank" rel="noopener noreferrer" class="px-2">
                     <img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" title="TensorFlow"> </a> <a target="_blank" rel="noopener noreferrer" class="px-2"> 
@@ -16,12 +16,20 @@
 </template>
 
 <script setup>
-    import {
-    VCard,
-    VCardItem,
-    VCardTitle,
-    VCardSubtitle,
-    VCardText
-    } from 'vuetify/lib/components/index.mjs';
+import { useProjectsStore } from '../../stores/ProjectsStore';
+import { computed, onMounted, watch } from 'vue';
+
+
+// Import Vuetify components
+import { VCard, VCardItem, VCardTitle, VCardSubtitle, VCardText } from 'vuetify/lib/components/index.mjs';
+import Projects from '../Projects.vue';
+
+const jsonStore = useProjectsStore();
+const projectJsonData = computed(() => jsonStore.getJsonData);
+
+onMounted(() => {
+    
+});
 
 </script>
+
