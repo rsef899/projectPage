@@ -3,7 +3,7 @@
       <h2 class="text-green-700 font-googlePoppins font-bold text-lg lg:pt-5">My Skills And Experiences</h2>
   
       <!-- Grid container -->
-      <div class="grid grid-cols-2 grid-rows-6 py-5 lg: gap-y-4 gap-x-32 ">
+      <div class="grid grid-cols-2 grid-rows-6 py-5 lg: gap-y-4 gap-x-30 ">
         <!-- First column for labels -->
         
           <p class="font-googleMulish leading-loose text-lg col-start-1 row-start-1">Programming Languages:</p>
@@ -85,6 +85,12 @@
             <a target="_blank" rel="noopener noreferrer" class="px-2">
                 <img src="../assets/icons/guni.png" alt="Gunicorn" title="Gunicorn">
             </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="../assets/icons/vercel.png" alt="Vercel" title="Vercel">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="../assets/icons/awsBS.png" alt="AWS Beanstalk" title="AWS Beanstalk">
+            </a>
           </div>
 
           <!-- Embedded/Computer systems Icons -->
@@ -109,6 +115,9 @@
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
                 <img src="../assets/icons/mips.png" alt="MIPS Assmebly" title="MIPS Assembly">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="../assets/icons/cmake.png" alt="Cmake" title="Cmake">
             </a>
           </div>
 

@@ -5,7 +5,7 @@
   </div>
   <div class="w-full h-500px flex justify-center items-center py-20">
       <Skills/>
-  </div>
+  </div>  
   <div class="w-full flex justify-center items-center py-20  bg-slate-50">
     <Projects/>
   </div>

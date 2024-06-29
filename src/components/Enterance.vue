@@ -29,7 +29,7 @@
         <div class="flex pt-10">
             <p class="font-googleMulish leading-loose text-lg">Currently using:  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp|</p>
             <a target="_blank" rel="noopener noreferrer" class="px-5">
-                    <img src="https://skillicons.dev/icons?i=c,raspberrypi" alt="C & RasberryPi" title="C & RasberryPi">
+                    <img src="https://skillicons.dev/icons?i=cs,dotnet" alt="C & RasberryPi" title="C & RasberryPi">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-5">
                     <img src="https://skillicons.dev/icons?i=python,flask,vue,tailwind" alt="Python & Flask & Vue & Tailwind" title="Python & Flask & Vue & Tailwind">
