@@ -1,11 +1,9 @@
 <template>
     <div class="flex flex-col items-center ">
     <h2 class="text-green-700 font-googlePoppins font-bold text-lg lg:pt-5">My Projects</h2>
+    <ProjectComponant></ProjectComponant>
     
-    <div class="flex flex-row w-2/3 gap-4">
-        <ProjectComponant class="lg: w-2/5 rounded-2xl"></ProjectComponant>
-        <ProjectImage class="lg:  w-3/5 rounded-2xl"></ProjectImage>
-    </div>
+    
     
 </div>
 
@@ -15,7 +13,7 @@
 
 <script setup>
 import ProjectComponant from './ProjectComponants/ProjectComponant.vue'
-import ProjectImage from './ProjectComponants/ProjectImage.vue';
+
 
 
 
