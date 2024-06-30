@@ -6,7 +6,7 @@
         "https://skillicons.dev/icons?i=python",
         "https://skillicons.dev/icons?i=flask"
       ],
-      "Description": "• Designed, built and deployed a budgeting web application based on frequent tasks that were managed using Excel\n\r• Used a combination of React for the front-end and Python/flask with SQLite for the back-end\n\r• Worked on a Linux based cloud server using Nginx to deploy applications",
+      "Description": "• Designed, built and deployed a budgeting web application based on frequent tasks that were managed using Excel<br>• Used a combination of React for the front-end and Python/flask with SQLite for the back-end<br>• Worked on a Linux based cloud server using Nginx to deploy applications",
       "images": [
         "Budgeter1",
         "Budgeter2",
