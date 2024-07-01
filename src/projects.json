@@ -38,7 +38,7 @@
               "https://skillicons.dev/icons?i=c",
               "https://skillicons.dev/icons?i=raspberrypi",
               "assets/icons/awsBS.png",
-              "https://skillicons.dev/icons?i=cmake"
+              "assets/icons/cmake.png"
 
             ],
             "Description": "• Created, in a team of 7, a wireless scale from the ground up, including hardware for weight measurement and a userinteractive app<br><br>• Developed firmware for an ARM-based Raspberry Pi Pico, utilising peripherals such as ADC, Timer, UART, and I2C<br><br>• Firmware programmed using C and CMake, the scale was configured to use HTTPS to communicate with our backend<br><br>• Deployed our team's software backend using AWS Elastic Beanstalk and managed the server setup, including TLS configuration, through AWS EC2",

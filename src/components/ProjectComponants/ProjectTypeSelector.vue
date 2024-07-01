@@ -23,7 +23,7 @@
   
   const handleClick = (projectType) => {
     jsonStore.setProjectType(projectType);
-    console.log("Current Project Type:", projectType);
+    jsonStore.setProject(0);
   };
   </script>
   

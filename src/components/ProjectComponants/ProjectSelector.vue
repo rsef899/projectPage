@@ -21,7 +21,7 @@
     } from 'vuetify/lib/components/index.mjs';
 
     const jsonStore = useProjectsStore();
-    const specficProjects = computed(() => jsonStore.getFieldProjects("Software"));
+    const specficProjects = computed(() => jsonStore.getFieldProjects(jsonStore.getTypeWanted));
 
     const handleClick = (projectIndex) => {
         jsonStore.setProject(projectIndex)
