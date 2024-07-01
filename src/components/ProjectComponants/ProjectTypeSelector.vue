@@ -1,7 +1,7 @@
 <template>
     <div class="flex flex-row gap-2">
       <v-chip
-        class="ma-2 font-bold"
+        class="ml-0 ma-2 font-bold"
         color="#15803d"
         :variant="key === selectedType ? 'elevated' : 'tonal'"
         v-for="(key) in Object.keys(projectTypes)"

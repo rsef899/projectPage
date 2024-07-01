@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-row gap-2">
-        <v-chip  class="ma-2 font-bold" 
+        <v-chip  class="ml-0 ma-2 font-bold" 
             
             color="#15803d" 
             :variant="selectedChip === key ? 'elevated' : 'tonal'" 

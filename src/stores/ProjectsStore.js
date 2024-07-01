@@ -5,7 +5,7 @@ import jsonFile from '../projects.json';
 export const useProjectsStore = defineStore('jsonProjects', {
   state: () => ({
     jsonProjectData: jsonFile,
-    currentProjectType: "Software",
+    currentProjectType: "Frimware & Digital",
     currentProject : 0,
   }),
   actions: {

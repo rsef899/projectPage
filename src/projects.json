@@ -9,7 +9,7 @@
                 "https://skillicons.dev/icons?i=react",
                 "https://skillicons.dev/icons?i=nginx"
               ],
-              "Description": "• Designed, built and deployed a budgeting web application based on frequent tasks that were managed using Excel<br><br>• Used a combination of React for the front-end and Python/flask with SQLite for the back-end<br><br>• Worked on a Linux based cloud server using Nginx to deploy applications",
+              "Description": "• An application I built modelling what I was doing mannualy on Excel, mostly to track expenses and sales, but also a page to help with my side hobby of buidling PCs<br><br>• Used a combination of React for the front-end and Python/Flask with SQLite for the back-end<br><br>• Worked on a Linux based cloud server using Nginx to deploy applications",
               "images": [
                 "assets/project_pictures/Budgeter/Budgeter1.png",
                 "assets/project_pictures/Budgeter/Budgeter2.png",
@@ -41,13 +41,25 @@
               "assets/icons/cmake.png"
 
             ],
-            "Description": "• Created, in a team of 7, a wireless scale from the ground up, including hardware for weight measurement and a userinteractive app<br><br>• Developed firmware for an ARM-based Raspberry Pi Pico, utilising peripherals such as ADC, Timer, UART, and I2C<br><br>• Firmware programmed using C and CMake, the scale was configured to use HTTPS to communicate with our backend<br><br>• Deployed our team's software backend using AWS Elastic Beanstalk and managed the server setup, including TLS configuration, through AWS EC2",
+            "Description": "• Created, in a team of 7, a wireless scale from the ground up, including hardware for weight measurement and a user-interactive app<br><br>• Developed firmware for an ARM-based Raspberry Pi Pico, utilising peripherals such as ADC, Timer, UART, and I2C<br><br>• Firmware programmed using C and CMake, the scale was configured to use HTTPS to communicate with our backend<br><br>• Deployed our team's software backend using AWS Elastic Beanstalk and managed the server setup, including TLS configuration, through AWS EC2",
             "images": [
-              "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
-              "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
-              "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"
+              "assets/project_pictures/Capstone/Capstone1.png",
+              "assets/project_pictures/Capstone/Capstone2.png",
+              "assets/project_pictures/Capstone/Capstone3.png"
             ]
-        }
+        },
+        {
+          "Title": "Line Following Robot",
+          "Icons": [
+            "https://skillicons.dev/icons?i=c"
+          ],
+          "Description": "• Line following, maze completing robot which computes the shortest path in the maze when given points it must visit, Firmware implemented on an Arm Cortex M3 PSoC<br><br>• Created light sensing circuitry and then designed the corresponding PCB using Altium designer<br><br>• Designed shortest path algorithms for the robot to follow and made use of them through the firmware<br><br>• Interfaced the motors with components such as PWM generators and quadrature encoders/decoders. ",
+          "images": [
+            "assets/project_pictures/301Robot/301Robot.mp4",
+            "assets/project_pictures/301Robot/301Robot2.png",
+            "assets/project_pictures/301Robot/301Robot3.png"
+          ]
+      }
 
       ]
 
