@@ -1,5 +1,5 @@
 <template>
-    <v-card>
+    <v-card class="shadow-xl">
       <v-card-item>
         <v-card-title class="text-wrap">{{ specficProject.Title }}</v-card-title>
         <v-card-subtitle>{{ projectType }}</v-card-subtitle>

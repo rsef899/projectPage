@@ -1,26 +1,25 @@
 <template>
-    <v-carousel hide-delimiters class="">
+    <v-carousel hide-delimiters class="shadow-xl">
       <v-carousel-item
-        v-for="(item, index) in items"
+        v-for="(item, index) in specficProject.images"
         :key="index"
-        :src="item.url"
-        :alt="item.alt"
+        :src="item"
         cover
       ></v-carousel-item>
     </v-carousel>
   </template>
   
   <script setup>
-  import { ref } from 'vue';
+  import { computed, ref } from 'vue';
+  import { useProjectsStore } from '../../stores/ProjectsStore';
   import {
     VCarousel,
     VCarouselItem
     } from 'vuetify/lib/components/index.mjs';
   
-  const items = ref([
-    { url: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg', alt: 'Image 1' },
-    { url: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg', alt: 'Image 2' },
-    { url: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg', alt: 'Image 3' },
-  ]);
+    const jsonStore = useProjectsStore();
+    const specficProject = computed(() => jsonStore.getProjectWanted);
+
+
   </script>
   

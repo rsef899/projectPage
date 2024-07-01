@@ -17,10 +17,10 @@
             </ul>
             <div class="flex">
                 <a href="https://www.linkedin.com/in/robert-sefaj-2b73b72b2/" target="_blank" rel="noopener noreferrer">
-                    <img src="../assets/icons/linkedin_icon.svg" alt="LinkedIn">
+                    <img src="../assets/linkedin_icon.svg" alt="LinkedIn">
                 </a>
                 <a href="https://github.com/rsef899" target="_blank" rel="noopener noreferrer" class="px-5">
-                    <img src="../assets/icons/githubfirst.svg" alt="Github">
+                    <img src="../assets/githubfirst.svg" alt="Github">
                 </a>
             </div>
             </div>
