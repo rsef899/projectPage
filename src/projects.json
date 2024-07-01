@@ -1,37 +1,53 @@
 {
     "Projects": {
       "Software": [
+            {
+              "Title": "Budgeter (Budgeting Web Application)",
+              "Icons": [
+                "https://skillicons.dev/icons?i=python",
+                "https://skillicons.dev/icons?i=flask",
+                "https://skillicons.dev/icons?i=react",
+                "https://skillicons.dev/icons?i=nginx"
+              ],
+              "Description": "• Designed, built and deployed a budgeting web application based on frequent tasks that were managed using Excel<br><br>• Used a combination of React for the front-end and Python/flask with SQLite for the back-end<br><br>• Worked on a Linux based cloud server using Nginx to deploy applications",
+              "images": [
+                "Budgeter1",
+                "Budgeter2",
+                "Budgeter3"
+              ]
+          },
           {
-            "Title": "Budgeter (Budgeting Web Application)",
-            "Type": "Software",
+            "Title": "American Sign Language Detection",
             "Icons": [
               "https://skillicons.dev/icons?i=python",
-              "https://skillicons.dev/icons?i=flask"
+              "https://skillicons.dev/icons?i=pytorch",
+              "https://skillicons.dev/icons?i=git"
             ],
-            "Description": "• Designed, built and deployed a budgeting web application based on frequent tasks that were managed using Excel<br><br>• Used a combination of React for the front-end and Python/flask with SQLite for the back-end<br><br>• Worked on a Linux based cloud server using Nginx to deploy applications",
+            "Description": "An application that is used to train a model to be able to predict American sign language characters, also has the ability to detect the signs from pictures users can take from their own device<br><br>• Used PyTorch to implement three neural networks and also created a wrapper to train and predict the signs<br><br>• Worked in an agile manner with a g",
             "images": [
-              "Budgeter1",
-              "Budgeter2",
-              "Budgeter3"
+              "ASL1",
+              "ASL2",
+              "ASL3"
             ]
-        },
-        {
-          "Title": "American Sign Language Detection",
-          "Type": "Software",
-          "Icons": [
-            "https://skillicons.dev/icons?i=python",
-            "https://skillicons.dev/icons?i=pytorch"
-          ],
-          "Description": "An application that is used to train a model to be able to predict American sign language characters, also has the ability to detect the signs from pictures users can take from their own device<br><br>• Used PyTorch to implement three neural networks and also created a wrapper to train and predict the signs<br><br>• Worked in an agile manner with a g",
-          "images": [
-            "ASL1",
-            "ASL2",
-            "ASL3"
-          ]
-      }
+        }
       ],
       "Frimware & Digital" : [
-        {}
+          {
+            "Title": "Wireless Baby Weighing Scale",
+            "Icons": [
+              "https://skillicons.dev/icons?i=c",
+              "https://skillicons.dev/icons?i=raspberrypi",
+              "assets/icons/awsBS.png",
+              "https://skillicons.dev/icons?i=cmake"
+
+            ],
+            "Description": "• Created, in a team of 7, a wireless scale from the ground up, including hardware for weight measurement and a userinteractive app<br><br>• Developed firmware for an ARM-based Raspberry Pi Pico, utilising peripherals such as ADC, Timer, UART, and I2C<br><br>• Firmware programmed using C and CMake, the scale was configured to use HTTPS to communicate with our backend<br><br>• Deployed our team's software backend using AWS Elastic Beanstalk and managed the server setup, including TLS configuration, through AWS EC2",
+            "images": [
+              "ASL1",
+              "ASL2",
+              "ASL3"
+            ]
+        }
 
       ]
 

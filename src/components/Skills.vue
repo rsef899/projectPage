@@ -67,7 +67,7 @@
                 <img src="https://skillicons.dev/icons?i=flask" alt="Flask" title="Flask">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/jaxrs.png" alt="Jax-Rs" title="Jax-Rs">
+                <img src="/assets/icons/jaxrs.png" alt="Jax-Rs" title="Jax-Rs">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
                 <img src="https://skillicons.dev/icons?i=sqlite" alt="Sqlite" title="Sqlite">
@@ -83,13 +83,13 @@
                 <img src="https://skillicons.dev/icons?i=nginx" alt="Nginx" title="Nginx">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/guni.png" alt="Gunicorn" title="Gunicorn">
+                <img src="/assets/icons/guni.png" alt="Gunicorn" title="Gunicorn">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/vercel.png" alt="Vercel" title="Vercel">
+                <img src="/assets/icons/vercel.png" alt="Vercel" title="Vercel">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/awsBS.png" alt="AWS Beanstalk" title="AWS Beanstalk">
+                <img src="/assets/icons/awsBS.png" alt="AWS Beanstalk" title="AWS Beanstalk">
             </a>
           </div>
 
@@ -102,22 +102,22 @@
                 <img src="https://skillicons.dev/icons?i=raspberrypi" alt="RaspberryPi" title="RaspberryPi">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/st.png" alt="ST" title="ST">
+                <img src="/assets/icons/st.png" alt="ST" title="ST">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/freeRTOS.png" alt="freeRTOS" title="freeRTOS">
+                <img src="/assets/icons/freeRTOS.png" alt="freeRTOS" title="freeRTOS">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/ble.png" alt="BLE" title="BLE">
+                <img src="/assets/icons/ble.png" alt="BLE" title="BLE">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/vhdl.png" alt="VHDL" title="VHDL">
+                <img src="/assets/icons/vhdl.png" alt="VHDL" title="VHDL">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/mips.png" alt="MIPS Assmebly" title="MIPS Assembly">
+                <img src="/assets/icons/mips.png" alt="MIPS Assmebly" title="MIPS Assembly">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/cmake.png" alt="Cmake" title="Cmake">
+                <img src="/assets/icons/cmake.png" alt="Cmake" title="Cmake">
             </a>
           </div>
 
@@ -130,7 +130,7 @@
                 <img src="https://skillicons.dev/icons?i=pytorch" alt="Pytorch" title="Pytorch">
             </a>
             <a target="_blank" rel="noopener noreferrer" class="px-2">
-                <img src="../assets/icons/jupyter.png" alt="Jupyter" title="Jupyter">
+                <img src="/assets/icons/jupyter.png" alt="Jupyter" title="Jupyter">
             </a>
           </div>
       

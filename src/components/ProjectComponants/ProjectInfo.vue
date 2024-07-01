@@ -4,14 +4,15 @@
         <v-card-title class="text-wrap">{{ specficProject.Title }}</v-card-title>
         <v-card-subtitle>{{ projectType }}</v-card-subtitle>
         <div class="flex flex-wrap items-center my-2">
-          <a target="_blank" rel="noopener noreferrer" class="px-2">
-            <img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" title="TensorFlow">
-          </a>
-          <a target="_blank" rel="noopener noreferrer" class="px-2">
-            <img src="https://skillicons.dev/icons?i=pytorch" alt="Pytorch" title="Pytorch">
-          </a>
-          <a target="_blank" rel="noopener noreferrer" class="px-2">
-            <img src="../../assets/icons/jupyter.png" alt="Jupyter" title="Jupyter">
+          <a
+            v-for="(icon, index) in specficProject.Icons"
+            :key="index"
+            :href="icon"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="px-2"
+          >
+            <img :src="icon" :alt="icon.name" :title="icon.name">
           </a>
         </div>
       </v-card-item>
