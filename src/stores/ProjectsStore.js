@@ -24,6 +24,12 @@ export const useProjectsStore = defineStore('jsonProjects', {
     getJsonData() {
       return this.jsonProjectData;
     },
+    getProjectTypes() {
+      return this.jsonProjectData.Projects;
+    },
+    getTypeWanted(){
+      return this.currentProjectType;
+    },
     getProjectWanted(){
       return this.jsonProjectData.Projects[this.currentProjectType][Number(this.currentProject)];
     },

@@ -2,7 +2,7 @@
     <v-card>
       <v-card-item>
         <v-card-title class="text-wrap">{{ specficProject.Title }}</v-card-title>
-        <v-card-subtitle>{{ specficProject.Type }}</v-card-subtitle>
+        <v-card-subtitle>{{ projectType }}</v-card-subtitle>
         <div class="flex flex-wrap items-center my-2">
           <a target="_blank" rel="noopener noreferrer" class="px-2">
             <img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" title="TensorFlow">
@@ -29,6 +29,7 @@
   const jsonStore = useProjectsStore();
   const projectJsonData = computed(() => jsonStore.getJsonData);
   const specficProject = computed(() => jsonStore.getProjectWanted);
+  const projectType = computed(() => jsonStore.getTypeWanted);
 
   
   
