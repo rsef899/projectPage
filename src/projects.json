@@ -1,17 +1,41 @@
 {
     "Projects": {
-      "Title": "Budgeter (Budgeting Web Application)",
-      "Type": "Software",
-      "Icons": [
-        "https://skillicons.dev/icons?i=python",
-        "https://skillicons.dev/icons?i=flask"
-      ],
-      "Description": "• Designed, built and deployed a budgeting web application based on frequent tasks that were managed using Excel<br>• Used a combination of React for the front-end and Python/flask with SQLite for the back-end<br>• Worked on a Linux based cloud server using Nginx to deploy applications",
-      "images": [
-        "Budgeter1",
-        "Budgeter2",
-        "Budgeter3"
+      "Software": [
+          {
+            "Title": "Budgeter (Budgeting Web Application)",
+            "Type": "Software",
+            "Icons": [
+              "https://skillicons.dev/icons?i=python",
+              "https://skillicons.dev/icons?i=flask"
+            ],
+            "Description": "• Designed, built and deployed a budgeting web application based on frequent tasks that were managed using Excel<br>• Used a combination of React for the front-end and Python/flask with SQLite for the back-end<br>• Worked on a Linux based cloud server using Nginx to deploy applications",
+            "images": [
+              "Budgeter1",
+              "Budgeter2",
+              "Budgeter3"
+            ]
+        },
+        {
+          "Title": "American Sign Language Detection",
+          "Type": "Software",
+          "Icons": [
+            "https://skillicons.dev/icons?i=python",
+            "https://skillicons.dev/icons?i=pytorch"
+          ],
+          "Description": "An application that is used to train a model to be able to predict American sign language characters, also has the ability to detect the signs from pictures users can take from their own device<br>• Used PyTorch to implement three neural networks and also created a wrapper to train and predict the signs<br>• Worked in an agile manner with a g",
+          "images": [
+            "ASL1",
+            "ASL2",
+            "ASL3"
+          ]
+      }
+
+
       ]
-    }
+      },
+      "Embedded&Digital" : [
+        {}
+
+      ]
   }
   

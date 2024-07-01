@@ -1,8 +1,8 @@
 <template>
     <v-card>
       <v-card-item>
-        <v-card-title class="text-wrap">{{ projectJsonData.Projects.Title }}</v-card-title>
-        <v-card-subtitle>{{ projectJsonData.Projects.Type }}</v-card-subtitle>
+        <v-card-title class="text-wrap">{{ specficProject.Title }}</v-card-title>
+        <v-card-subtitle>{{ specficProject.Type }}</v-card-subtitle>
         <div class="flex flex-wrap items-center my-2">
           <a target="_blank" rel="noopener noreferrer" class="px-2">
             <img src="https://skillicons.dev/icons?i=tensorflow" alt="Tensorflow" title="TensorFlow">
@@ -15,7 +15,7 @@
           </a>
         </div>
       </v-card-item>
-      <v-card-text v-html="projectJsonData.Projects.Description"></v-card-text>
+      <v-card-text v-html="specficProject.Description"></v-card-text>
     </v-card>
   </template>
   
@@ -28,6 +28,9 @@
   
   const jsonStore = useProjectsStore();
   const projectJsonData = computed(() => jsonStore.getJsonData);
+  const specficProject = computed(() => jsonStore.getProjectWanted);
+
+  
   
   onMounted(() => {
     // Any required setup
