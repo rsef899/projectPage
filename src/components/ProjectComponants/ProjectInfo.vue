@@ -7,7 +7,6 @@
           <a
             v-for="(icon, index) in specficProject.Icons"
             :key="index"
-            :href="icon"
             target="_blank"
             rel="noopener noreferrer"
             class="px-2"

@@ -21,12 +21,11 @@
   const jsonStore = useProjectsStore();
   const projectTypes = computed(() => jsonStore.getProjectTypes);
   
-  const selectedType = ref(null);
+  const selectedType = computed(() => jsonStore.getTypeWanted);
 
   const handleClick = (projectType) => {
     jsonStore.setProjectType(projectType);
     jsonStore.setProject(0);
-    selectedType.value = projectType;
   };
   </script>
   

@@ -27,11 +27,10 @@
     const specficProjects = computed(() => jsonStore.getFieldProjects(jsonStore.getTypeWanted));
 
     // Add reactive state for selected chip
-    const selectedChip = ref(null);
+    const selectedChip = computed(() =>jsonStore.getProjectSelectedState);
 
     const handleClick = (projectIndex) => {
-        jsonStore.setProject(projectIndex)
-        selectedChip.value = projectIndex;
+        jsonStore.setProject(projectIndex);
     }
 
 </script>

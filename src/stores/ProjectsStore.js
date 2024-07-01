@@ -6,7 +6,7 @@ export const useProjectsStore = defineStore('jsonProjects', {
   state: () => ({
     jsonProjectData: jsonFile,
     currentProjectType: "Software",
-    currentProject : 0
+    currentProject : 0,
   }),
   actions: {
 
@@ -19,6 +19,7 @@ export const useProjectsStore = defineStore('jsonProjects', {
     setJsonData(data) {
       this.jsonProjectData = data;
     },
+
   },
   getters: {
     getJsonData() {
@@ -36,5 +37,9 @@ export const useProjectsStore = defineStore('jsonProjects', {
     getFieldProjects: (state) => (type) => {
       return state.jsonProjectData.Projects[type];
     },
+    // For project selection buttons
+    getProjectSelectedState(){
+      return this.currentProject;
+    }
   },
 });
