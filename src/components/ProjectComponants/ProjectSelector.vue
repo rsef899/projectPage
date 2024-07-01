@@ -1,6 +1,9 @@
 <template>
     <div class="flex flex-row gap-2">
-        <v-chip  class="ma-2 font-bold" color="#15803d" variant="tonal" 
+        <v-chip  class="ma-2 font-bold" 
+            
+            color="#15803d" 
+            :variant="selectedChip === key ? 'elevated' : 'tonal'" 
             :key="key"
             v-for="(project, key) in specficProjects"
             @click="handleClick(key)" 
@@ -14,7 +17,7 @@
 
 <script setup>
     import { useProjectsStore } from '../../stores/ProjectsStore';
-    import { computed } from 'vue';
+    import { computed, ref } from 'vue';
 
     import {
         VChip
@@ -23,8 +26,12 @@
     const jsonStore = useProjectsStore();
     const specficProjects = computed(() => jsonStore.getFieldProjects(jsonStore.getTypeWanted));
 
+    // Add reactive state for selected chip
+    const selectedChip = ref(null);
+
     const handleClick = (projectIndex) => {
         jsonStore.setProject(projectIndex)
+        selectedChip.value = projectIndex;
     }
 
 </script>
