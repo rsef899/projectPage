@@ -59,7 +59,33 @@
             "assets/project_pictures/301Robot/301Robot2.png",
             "assets/project_pictures/301Robot/301Robot3.png"
           ]
-      }
+        },
+
+        {
+          "Title": "32-bit Processor",
+          "Icons": [
+            "assets/icons/vhdl.png"
+          ],
+          "Description": "• Developed a Reactive Proccessor designed for control-dominated applications in reactive environments, integrated with a main NIOS processor<br><br>• Implemented a specialized Instruction Set Architecture based on RISK-V, tailored for real-time and reactive event handling.<br><br>• Designed and implemented the ReCOP's architecture, including fetch, decode, execute, and writeback stages, optimizing performance and predictability. <br><br>• Developed testbenches and conducted extensive testing using Intel Quartus and Modelsim to ensure functionality and reliability under various operational scenarios",
+          "images": [
+            "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
+            "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+            "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"
+          ]
+      },
+
+      {
+        "Title": "Flappy Bird Game",
+        "Icons": [
+          "assets/icons/vhdl.png"
+        ],
+        "Description": "• Flappy bird inspired game with a team of three people to be used on an Intel Cyclone V FPGA board<br><br>• The game was programmed using VHDL, hardware descriptionlanguage<br><br>• The FPGA used is interfaced with periphirals such as a VGA display, which renders sprites from MIF files, keyboard and mouse so the user can play the game",
+        "images": [
+          "assets/project_pictures/305FB/305FB2.png",
+          "assets/project_pictures/305FB/305FB1.mp4",
+          "assets/project_pictures/305FB/305FB3.png"
+        ]
+    }
 
       ]
 

@@ -21,7 +21,7 @@
   
   <script setup>
   import { useProjectsStore } from '../../stores/ProjectsStore';
-  import { computed, onMounted } from 'vue';
+  import { computed } from 'vue';
   
   // Import Vuetify components
   import { VCard, VCardItem, VCardTitle, VCardSubtitle, VCardText } from 'vuetify/lib/components/index.mjs';
@@ -30,12 +30,6 @@
   const projectJsonData = computed(() => jsonStore.getJsonData);
   const specficProject = computed(() => jsonStore.getProjectWanted);
   const projectType = computed(() => jsonStore.getTypeWanted);
-
-  
-  
-  onMounted(() => {
-    // Any required setup
-  });
   </script>
   
   
