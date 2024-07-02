@@ -1,17 +1,11 @@
 <template>
   <div class="flex flex-col items-center">
-    <div class="flex flex-col items-center w-screen">
-      <div class="w-3/5 flex justify-start">
-        <ProjectTypeSelector></ProjectTypeSelector>
+        <ProjectTypeSelector class="p-2"></ProjectTypeSelector>
+      <div class="flex flex-row gap-7">
+        <ProjectInfo class="rounded-2xl w-2/5 lg:w-[385px] lg:h-[500px]"></ProjectInfo>
+        <ProjectImage class="rounded-2xl w-3/5 lg:w-[600px] lg:h-[500px]"></ProjectImage>
       </div>
-      <div class="flex flex-row gap-4 w-3/5">
-        <ProjectInfo class="rounded-2xl w-2/5 "></ProjectInfo>
-        <ProjectImage class="rounded-2xl w-3/5"></ProjectImage>
-      </div>
-      <div class="w-3/5 flex justify-start">
-        <ProjectSelector></ProjectSelector>
-      </div>
-    </div>
+        <ProjectSelector class="p-2"></ProjectSelector> 
   </div>
 </template>
 
@@ -19,5 +13,5 @@
 import ProjectImage from './ProjectImage.vue';
 import ProjectInfo from './ProjectInfo.vue';
 import ProjectSelector from './ProjectSelector.vue';
-import ProjectTypeSelector from './ProjectTypeSelector.vue'
+import ProjectTypeSelector from './ProjectTypeSelector.vue';
 </script>
