@@ -31,9 +31,10 @@
             <a target="_blank" rel="noopener noreferrer" class="px-5">
                     <img src="https://skillicons.dev/icons?i=cs,dotnet" alt="C & RasberryPi" title="C & RasberryPi">
             </a>
+            <p class="font-googleMulish leading-loose text-lg">|</p>
             <a target="_blank" rel="noopener noreferrer" class="px-5">
-                    <img src="https://skillicons.dev/icons?i=python,flask,vue,tailwind" alt="Python & Flask & Vue & Tailwind" title="Python & Flask & Vue & Tailwind">
-            </a>
+                    <img src="https://skillicons.dev/icons?i=vue,tailwind" alt="Vue & Tailwind" title=" Vue & Tailwind">
+            </a>       
         </div>
     </div>
   </template>
