@@ -23,7 +23,7 @@
               "https://skillicons.dev/icons?i=pytorch",
               "https://skillicons.dev/icons?i=git"
             ],
-            "Description": "• An application that is used to train a model to be able to predict American sign language characters, also has the ability to detect the signs from pictures users can take from their own device<br><br>• In a team, Used PyTorch to implement three neural networks and also created a wrapper to train and predict the signs<br><br>• Built an interactive UI using PyQt",
+            "Description": "• An application that is used to train onvelutional neurel network models to be able to predict American sign language characters, also has the ability to detect the signs from pictures users can take from their own device<br><br>• In a team, Used PyTorch to implement three neural networks and also created a wrapper to train and predict the signs<br><br>• Built an interactive UI using PyQt",
             "images": [
               "assets/project_pictures/ASL/ASL1.png",
               "assets/project_pictures/ASL/ASL2.png",
@@ -38,7 +38,7 @@
               "https://skillicons.dev/icons?i=pinia",
               "assets/icons/vercel.png"
             ],
-            "Description": "• This Portfolio website was built using Vue to showcase some of my skils and projects I have undertaken in my own time, but also at university<br><br>• The Projects componant is made from scratch and I have further plans of making it more customisable, as well as making it a public Vue componant, for other people creating portfolios to use",
+            "Description": "• This Portfolio website was built using Vue to showcase some of my skils and projects I have undertaken in my own time, as well as at university<br><br>• The projects componant is made from scratch and I have further plans to make it more customisable, as well as making it a public Vue componant, for other people creating portfolios to use",
             "images": [
               "assets/project_pictures/Portfolio/Portfolio1.png",
               "assets/project_pictures/Portfolio/Portfolio2.png"
@@ -55,7 +55,7 @@
               "assets/icons/cmake.png"
 
             ],
-            "Description": "• Created, in a team of 7, a wireless scale from the ground up, including hardware for weight measurement and a user-interactive app<br><br>• Developed firmware for an ARM-based Raspberry Pi Pico, utilising peripherals such as ADC, Timer, UART, and I2C<br><br>• Firmware programmed using C and CMake, the scale was configured to use HTTPS to communicate with our backend<br><br>• Deployed our team's software backend using AWS Elastic Beanstalk and managed the server setup, including TLS configuration, through AWS EC2",
+            "Description": "• Created, in a team of 7, a wireless scale from the ground up, including hardware for weight measurement and a user-interactive app<br><br>• Developed firmware for an ARM-based Raspberry Pi Pico, utilising peripherals such as ADC, Timer, UART, and I2C<br><br>• Firmware programmed using C and CMake, the scale was configured to use HTTPS to communicate with our backend<br><br>• Deployed the software backend using AWS Elastic Beanstalk and managed the server setup, including TLS configuration, through AWS EC2",
             "images": [
               "assets/project_pictures/Capstone/Capstone1.png",
               "assets/project_pictures/Capstone/Capstone2.png",
@@ -67,7 +67,7 @@
           "Icons": [
             "https://skillicons.dev/icons?i=c"
           ],
-          "Description": "• Line following, maze completing robot which computes the shortest path in the maze when given points it must visit, Firmware implemented on an Arm Cortex M3 PSoC<br><br>• Created light sensing circuitry and then designed the corresponding PCB using Altium designer<br><br>• Designed shortest path algorithms for the robot to follow and made use of them through the firmware<br><br>• Interfaced the motors with components such as PWM generators and quadrature encoders/decoders. ",
+          "Description": "• In a team developed a line following, maze completing robot which computes the shortest path in the maze when given points it must visit, firmware implemented on an Arm Cortex M3 PSoC<br><br>• Created light sensing circuitry and then designed the corresponding PCB using Altium designer<br><br>• Designed shortest path algorithms for the robot to follow and made use of them through the firmware<br><br>• Interfaced the motors with components such as PWM generators and quadrature encoders/decoders. ",
           "images": [
             "assets/project_pictures/301Robot/301Robot.mp4",
             "assets/project_pictures/301Robot/301Robot2.png",
@@ -93,7 +93,7 @@
         "Icons": [
           "assets/icons/vhdl.png"
         ],
-        "Description": "• Flappy bird inspired game with a team of three people to be used on an Intel Cyclone V FPGA board<br><br>• The game was programmed using VHDL, hardware descriptionlanguage<br><br>• The FPGA used is interfaced with periphirals such as a VGA display, which renders sprites from MIF files, keyboard and mouse so the user can play the game",
+        "Description": "• Developed a Flappy bird inspired game to be played through an Intel Cyclone V FPGA board<br><br>• The game was programmed using VHDL, hardware descriptionlanguage<br><br>• The FPGA was interfaced with periphirals such as a VGA display, which renders sprites from MIF files, as well as a keyboard and mouse so the user can play the game",
         "images": [
           "assets/project_pictures/305FB/305FB2.png",
           "assets/project_pictures/305FB/305FB1.mp4",
