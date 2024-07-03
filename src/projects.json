@@ -23,11 +23,11 @@
               "https://skillicons.dev/icons?i=pytorch",
               "https://skillicons.dev/icons?i=git"
             ],
-            "Description": "• An application that is used to train a model to be able to predict American sign language characters, also has the ability to detect the signs from pictures users can take from their own device<br><br>• Used PyTorch to implement three neural networks and also created a wrapper to train and predict the signs<br><br>• Worked in an agile manner with a group, making use of kanban and weekly standups<br><br>• Built an interactive UI using PyQt",
+            "Description": "• An application that is used to train a model to be able to predict American sign language characters, also has the ability to detect the signs from pictures users can take from their own device<br><br>• In a team, Used PyTorch to implement three neural networks and also created a wrapper to train and predict the signs<br><br>• Built an interactive UI using PyQt",
             "images": [
-              "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
-              "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
-              "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"
+              "assets/project_pictures/ASL/ASL1.png",
+              "assets/project_pictures/ASL/ASL2.png",
+              "assets/project_pictures/ASL/ASL3.png"
             ]
           },
           {
@@ -40,9 +40,8 @@
             ],
             "Description": "• This Portfolio website was built using Vue to showcase some of my skils and projects I have undertaken in my own time, but also at university<br><br>• The Projects componant is made from scratch and I have further plans of making it more customisable, as well as making it a public Vue componant, for other people creating portfolios to use",
             "images": [
-              "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
-              "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
-              "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"
+              "assets/project_pictures/Portfolio/Portfolio1.png",
+              "assets/project_pictures/Portfolio/Portfolio2.png"
             ]
           }
       ],

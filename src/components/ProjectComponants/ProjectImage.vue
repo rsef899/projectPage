@@ -37,4 +37,8 @@ watch(activeIndex, async () => {
       video.pause(); 
   });
 });
+
+watch(specficProject, () => {
+  activeIndex.value = 0;
+});
 </script>

@@ -19,9 +19,8 @@
         >Skills</v-btn>
         <v-btn
             class="no-hover font-googlePoppins font-bold leading-loose text-zinc-800"
-            
             :ripple="false"
-            @click="scrollToSection('Skills')"
+            @click="scrollToSection('Projects')"
         >Projects</v-btn>
     
         <template v-slot:prepend>
