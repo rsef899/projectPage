@@ -1,13 +1,13 @@
 <template>
   
-  <div class="h-screen w-full flex justify-center items-center bg-slate-50">
-    <Enterance/>
+  <div id="Home" class="h-screen w-full flex justify-center items-center bg-slate-50">
+    <Enterance />
   </div>
-  <div class="w-full h-500px flex justify-center items-center py-20">
+  <div id="Skills" class="w-full h-500px flex justify-center items-center py-20">
       <Skills/>
   </div>  
-  <div class="w-full flex justify-center items-center py-20  bg-slate-50">
-    <Projects/>
+  <div id="Projects" class="w-full h-screen flex justify-center items-center py-20  bg-slate-50">
+    <Projects />
   </div>
   <div class="w-full flex justify-center items-center bg-zinc-800">
     <p class="font-googlePoppins font-medium leading-loose text-slate-50">Robert Sefaj</p>

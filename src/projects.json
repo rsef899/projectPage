@@ -29,7 +29,22 @@
               "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
               "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"
             ]
-        }
+          },
+          {
+            "Title": "Portfolio Website",
+            "Icons": [
+              "https://skillicons.dev/icons?i=vue",
+              "https://skillicons.dev/icons?i=tailwind",
+              "https://skillicons.dev/icons?i=pinia",
+              "assets/icons/vercel.png"
+            ],
+            "Description": "• This Portfolio website was built using Vue to showcase some of my skils and projects I have undertaken in my own time, but also at university<br><br>• The Projects componant is made from scratch and I have further plans of making it more customisable, as well as making it a public Vue componant, for other people creating portfolios to use",
+            "images": [
+              "https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg",
+              "https://cdn.vuetifyjs.com/images/carousel/sky.jpg",
+              "https://cdn.vuetifyjs.com/images/carousel/bird.jpg"
+            ]
+          }
       ],
       "Frimware & Digital" : [
           {
