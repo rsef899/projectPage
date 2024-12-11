@@ -91,6 +91,12 @@
             <a target="_blank" rel="noopener noreferrer" class="px-2">
                 <img src="/assets/icons/awsBS.png" alt="AWS Beanstalk" title="AWS Beanstalk">
             </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="https://skillicons.dev/icons?i=docker" alt="Docker" title="Docker">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" class="px-2">
+                <img src="/assets/icons/azureCI.png" alt="Azure Container Instances" title="Azure Container Instances">
+            </a>
           </div>
 
           <!-- Embedded/Computer systems Icons -->
